@@ -2,6 +2,7 @@
     --main-cinza: #CCCCCC;
     --main-branco: #FFFFFF;
     --main-preto: #000000;
+    --main-amarelo: #ffff00;
 }
 
 * {
@@ -123,12 +124,12 @@ main {
     font-size: 4em;
     background: var(--main-preto);
     text-align: center;
-    border: 3px solid var(--main-cinza);
+    border: 3px solid var(--main-amarelo);
     cursor: pointer;
 }
 
 .linha {
-    border-color: var(--main-cinza);
+    border-color: var(--main-amarelo);
 }
 
 .producao {
@@ -137,7 +138,7 @@ main {
     text-transform: uppercase;
     padding: 0.2em 1em;
     float: right;
-    border: 3px solid var(--main-branco);
+    border: 3px solid var(--main-amarelo);
     background: var(--main-branco);
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
     cursor: pointer;
@@ -165,7 +166,7 @@ main {
 
 .estatistica-titulo {
     font-size: 1.5em;
-    border-bottom: 1px solid var(--main-cinza);
+    border-bottom: 1px solid var(--main-amarelo);
     flex-basis: 40%;
     text-transform: uppercase;
     order: 1
@@ -183,7 +184,7 @@ main {
     content: "";
     display: block;
     padding-bottom: 100%;
-    border: 1px solid var(--main-cinza);
+    border: 1px solid var(--main-amarelo);
     border-radius: 50%;
 }
 
